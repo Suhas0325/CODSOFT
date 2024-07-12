@@ -1,0 +1,96 @@
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+   justify-content: space-evenly;
+  align-items: center;
+  gap: 300px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+
+.Portfolio {
+  text-align: center;
+}
+
+.menu-button {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navs {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem; /* Use rem for responsiveness */
+}
+
+.navs li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.navs li a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  .links.open {
+    display: flex;
+  }
+
+  .navs {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navs li a {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .Portfolio h2 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .navs li a {
+    font-size: 1rem;
+  }
+}

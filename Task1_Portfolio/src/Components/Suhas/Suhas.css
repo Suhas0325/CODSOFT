@@ -1,0 +1,88 @@
+.ss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 500px;
+    
+}
+.suhas{
+    display: flex;
+    
+}
+.suhas img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.info{
+    font-family: Poppins;
+font-size: 25px;
+font-weight: 300;
+line-height: 23px;
+text-align: left;
+width: 400px;
+text-align: center;
+}
+
+
+.full{
+   color: #757575;
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.butt button{
+    border-radius: 30px;
+    height: 50px;
+    border: 2px solid #000000;
+    width: 150px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+   
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   margin-top: 15px;
+}
+.logos img{
+    height: 40px;
+    width: 40px;
+   
+}
+
+@media (max-width:768px) {
+    .ss{
+        flex-direction: column;
+       align-items: center;
+    
+       height: auto;
+       padding-top: 80px; /* Adjust this value to the height of your navbar */
+       gap: 20px;
+    }
+
+    
+
+    .info {
+        width: 90%;
+        text-align: center;
+    }
+
+    .butt {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

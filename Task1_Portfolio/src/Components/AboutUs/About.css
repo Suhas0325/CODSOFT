@@ -1,0 +1,72 @@
+.abt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   gap: 100px;
+}
+
+.titleabt h1{
+  
+    text-align: center;
+  
+}
+.mee{
+    text-align: center;
+    font-family: Poppins;
+}
+.Hii{
+ 
+ height: 300px;
+ font-family: Poppins;
+ line-height: 30px;
+ width: 400px;
+ 
+}
+
+.Hii h1{
+   font-size: 30px;
+  
+}
+
+
+.Hii p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.person{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.Education{
+ text-align: center;
+
+   border: 2px solid black;
+   height: 150px;
+   width: 250px;
+    border-radius: 20px;
+}
+
+.Education  p{
+    color: #757575;
+}
+
+
+@media (max-width:900px){
+    .abt{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .Hii{
+        width: 90%;
+        height: auto;
+    }
+
+    .Education{
+        width: 70%;
+    }
+}

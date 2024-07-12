@@ -1,0 +1,115 @@
+.Projec{
+   text-align: center;
+}
+
+.prolist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+.actualProjects{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 400px;
+    height: 580px;
+    border-radius: 20px;
+    
+}
+
+.Ecomm{
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.Prodet{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 30px;
+   height: 15px;
+   width: 80%;
+   margin: 0 auto; 
+}
+
+.Prodet h3{
+    font-size: 20px;
+   font-weight: 600;
+}
+
+.Prodet img{
+    width: 40px;
+    height: 40px;
+   cursor: pointer;
+}
+
+.Descc{
+   padding:10px 30px 0px 30px;
+   text-align: justify;
+}
+
+.sss{
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+   margin-left: 30px;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+}
+.Tags span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #D9D9D9;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .prolist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .actualProjects {
+        width: 90%;
+      height: auto;
+    }
+
+    .Ecomm {
+        width: 90%;
+        height: auto;
+    }
+
+    .Prodet {
+       
+       
+       
+        width: 95%;
+    }
+
+    .Prodet h3 {
+        font-size: 18px;
+    }
+
+    .Prodet img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Descc {
+        padding:10px 30px 0px 30px;
+    }
+    
+    .sss{
+      margin-bottom: 20px;
+    }
+   
+}
