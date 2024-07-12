@@ -1,5 +1,6 @@
 import './footer.css'
 import { Link } from 'react-scroll'
+
  const Footer = () => {
     return(
         <div class="footer-container">
@@ -22,12 +23,6 @@ import { Link } from 'react-scroll'
               </Link>
                 </a>
             </nav>
-            <div class="social-media-icons">
-                <a href="https://www.facebook.com" class="social-media-icon" target="_blank"></a>
-                <a href="https://www.twitter.com" class="social-media-icon" target="_blank"></a>
-                <a href="https://www.linkedin.com" class="social-media-icon" target="_blank"></a>
-                <a href="https://www.instagram.com" class="social-media-icon" target="_blank"></a>
-            </div>
             <p class="copyright">
                 &copy; 2024 Mukku Suhas. All rights reserved.
             </p>
