@@ -15,7 +15,6 @@ function App() {
         <Element name="introduction"> 
           <Suhas/>
         </Element>
-        
         <Element name="aboutme">
          <About />
         </Element>
